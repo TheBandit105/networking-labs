@@ -26,7 +26,7 @@ public class TimeClient{
 
     int character;
     StringBuilder data = new StringBuilder();
-    while ((character = reader.read() != -1)) {
+    while ((character = reader.read()) != -1) {
       data.append((char) character);
     }
     System.out.println(data);
